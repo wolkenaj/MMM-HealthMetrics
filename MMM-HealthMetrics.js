@@ -33,7 +33,6 @@ Module.register("MMM-HealthMetrics",{
 	},
 	loadVideo: function(){
 		 					 
-		});
 	},
 	notificationReceived: function(notification, payload, sender) {
 		 if(notification == "BUTTON_PRESSED") {
