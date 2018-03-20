@@ -19,7 +19,6 @@ Module.register("MMM-HealthMetrics",{
 		var now = new Date();
 		
 		var healthNotice = document.createElement("div");
-		healthNotice.className = "healthButton";
 		var fullText = document.createElement("span");
 		var myText = "Testing";
 		fullText.innerHTML = myText;
