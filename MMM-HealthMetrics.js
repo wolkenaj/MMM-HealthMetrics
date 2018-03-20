@@ -18,6 +18,15 @@ Module.register("MMM-HealthMetrics",{
 		//calculate Timeout
 		var now = new Date();
 		
+		var healthNotice = document.createElement("div");
+		healthNotice.className = "healthButton";
+		var fullText = document.createElement("span");
+		var myText = "Testing";
+		fullText.innerHTML = myText;
+		
+		healthNotice.appendChild(fullText);
+		wrapper.appendChild(healthNotice);
+		
 		setTimeout(function(){self.timedUpdate},millisTillDownload);
 	},
 	playVideo: function(){
