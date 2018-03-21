@@ -35,11 +35,7 @@ Module.register("HealthMetrics", {
 
 		this.lastComplimentIndex = -1;
 
-		if (this.config.remoteFile != null) {
-			this.complimentFile((response) => {
-				this.config.compliments = JSON.parse(response);
-			});
-		}
+		
 
 		// Schedule update timer.
 		var self = this;
@@ -158,6 +154,6 @@ Module.register("HealthMetrics", {
 		if (notification == "CURRENTWEATHER_DATA") {
 			this.setCurrentWeatherType(payload.data);
 		}
-	},
+	}
 
 });
