@@ -12,8 +12,8 @@ Module.register("HealthMetrics", {
 	defaults: {
 		compliments: {
 			anytime: [
-				"Hey there sexy!",
-				"You're fantastic"
+				"Health Metrics Comment",
+				"Another Health Comment"
 			]
 		},
 		updateInterval: 30000,
